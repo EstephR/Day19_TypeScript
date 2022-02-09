@@ -12,3 +12,4 @@ person1.forEach(function(val){
         console.log(val.lName);
     }, 5000)
 })
+
