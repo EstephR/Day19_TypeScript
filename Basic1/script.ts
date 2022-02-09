@@ -6,11 +6,11 @@ for (let i = 1; i <= 10; i++) {
 }
 
 //Other loop
-for (let j = 0; j < array.length; j++) {
+for (let j: number = 0; j < array.length; j++) {
     //Inner Loop
-    for (let i = 0; i < array.length; i++) {
-    var result = array[i]*array[j];
-    var text = `${array[i]}x${array[j]} = ${result}` 
+    for (let i: number = 0; i < array.length; i++) {
+    var result: number = array[i]*array[j];
+    var text: string = `${array[i]}x${array[j]} = ${result}` 
     console.log(text);
     
 }
